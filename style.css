@@ -36,7 +36,6 @@ html {
   position: absolute;
   width: 24%;
   height: 34%;
-  position: absolute;
   background: radial-gradient(circle, var(--main) 11%, var(--main-accent) 145%);
   border-right: 29px solid var(--main);
   border-top: 40px solid transparent;
@@ -51,15 +50,15 @@ html {
 .head:after {
   content: '';
   position: absolute;
+  transform: scaleX(-1) rotateZ(-60deg);
   width: 24%;
   height: 34%;
-  position: absolute;
   background: radial-gradient(circle, var(--main) 11%, var(--main-accent) 145%);
   border-right: 29px solid var(--main);
   border-top: 40px solid transparent;
   border-bottom: 40px solid transparent;
   border-radius: 18% 82% 54% 46% / 0% 39% 61% 100%;
-  transform: rotateZ(-60deg);
+
   bottom: 20px;
   top: -34%;
   left: 2%;
