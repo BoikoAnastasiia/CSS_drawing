@@ -40,6 +40,7 @@ html {
   width: 70px;
   height: 70px;
   position: absolute;
+  z-index: 3;
   background: radial-gradient(circle, var(--eye) 3%, var(--eye-accent) 95%);
   top: 50px;
   border-radius: 50%;
