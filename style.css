@@ -247,7 +247,7 @@ html {
   background: radial-gradient(circle, var(--main) 22%, var(--main-accent) 95%);
   bottom: 0;
   right: 28%;
-  transform-origin: bottom;
+  transform-origin: bottom right;
   transform: rotateZ(43deg);
   border-radius: 8% 92% 0% 100% / 28% 91% 9% 72%;
 }
